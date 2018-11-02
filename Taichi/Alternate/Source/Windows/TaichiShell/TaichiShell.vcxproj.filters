@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{37c8d7c1-2cd7-48cf-9867-cf21cc844d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{cf3837f5-0210-4354-b7d9-12c1a19889c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\rapidjson">
+      <UniqueIdentifier>{d2636e6e-9091-4c0a-8d1b-a7d7b36d2d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\rapidjson\error">
+      <UniqueIdentifier>{94f8423d-4eb3-4646-88be-09e907725657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\rapidjson\internal">
+      <UniqueIdentifier>{2ff889c1-f32e-4262-890f-ce235e59eb34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\rapidjson\msinttypes">
+      <UniqueIdentifier>{9a094838-e4d2-4c1f-988a-4c8fc1560196}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TaichiShell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaichiShellDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CmdArgs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\TypeDef.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TaichiPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\allocators.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\cursorstreamwrapper.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\document.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\encodedstream.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\encodings.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\filereadstream.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\filewritestream.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\fwd.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\istreamwrapper.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\memorybuffer.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\memorystream.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\ostreamwrapper.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\pointer.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\prettywriter.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\rapidjson.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\reader.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\schema.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\stream.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\stringbuffer.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\writer.h">
+      <Filter>ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\error\en.h">
+      <Filter>ThirdParty\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\error\error.h">
+      <Filter>ThirdParty\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\biginteger.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\diyfp.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\dtoa.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\ieee754.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\itoa.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\meta.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\pow10.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\regex.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\stack.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\strfunc.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\strtod.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\internal\swap.h">
+      <Filter>ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\msinttypes\inttypes.h">
+      <Filter>ThirdParty\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\rapidjson\msinttypes\stdint.h">
+      <Filter>ThirdParty\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\PathUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\RapidJsonUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CmdRun.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TaichiShell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaichiShellDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaichiPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\PathUtils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\RapidJsonUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TaichiShell.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TaichiShell.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TaichiShell.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
